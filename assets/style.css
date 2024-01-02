@@ -83,6 +83,16 @@ html, body{
     }
 }
 
+@media screen and (max-width: 600px) {
+    .display {
+        font-size: 14px; /* Điều chỉnh kích thước font cho màn hình nhỏ */
+    }
+
+    /* Ẩn các thẻ span khi màn hình nhỏ */
+    .wrapper span {
+        display: none;
+    }
+}
 
 .wrapper span{
     height: 100%;
